@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+      integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+  <div class="header">
+    <div class="logo">
+      <h1>Cambia Valuta</h1>
+    </div>
+
+    <ul class="menu" id="menu">
+      <li><a href="#">link</a></li>
+      <li><a href="#">link</a></li>
+      <li><a href="#">link</a></li>
+    </ul>
+    <div class="menuHamb" onclick="openHamb()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <div class="hero">
+    <div class="hero__content">
+      <p class="normal-text">Intro Text</p>
+      <h1 class="big-text">Cambia la tua valuta facilmente</h1>
+    </div>
+  
+<div class="container" >
+    <div class="select1">    
+         <select  id="valute-one">
+        <option value="AED">AED</option>
+        <option value="AFN">AFN</option>
+        <option value="ALL">ALL</option>
+        <option value="AMD">AMD</option>
+        <option value="ANG">ANG</option>
+        <option value="AOA">AOA</option>
+        <option value="BGN">BGN</option>
+        <option value="BHD">BHD</option>
+        <option value="BIF">BIF</option>
+        <option value="USD">USD</option>
+        <option value="CAD">CAD</option>
+        <option value="EUR">EUR</option>
+        
+        
+       
+       
+        <input type="number" id="amount-one" placeholder="1" value="1" />
+      </select> 
+    </div>
+
+    <div class="select2">
+         <select id="valute-two">
+          <option value="AED">AED</option>
+          <option value="AFN">AFN</option>
+          <option value="ALL">ALL</option>
+          <option value="AMD">AMD</option>
+          <option value="ANG">ANG</option>
+          <option value="AOA">AOA</option>
+          <option value="BGN">BGN</option>
+          <option value="BHD">BHD</option>
+          <option value="BIF">BIF</option>
+          <option value="USD">USD</option>
+          <option value="CAD">CAD</option>
+          <option value="EUR">EUR</option>
+        <input type="number" id="amount-two" placeholder="0" value="0" />
+      </select>
+    </div>
+
+  <div class="rate" >
+   <p id="rate"></p>
+ 
+      </div>
+  </div>
+
+  
+
+    </div>
+  </div>
+
+ <script src="change.js"></script>
+ <script src="Extchange.js"></script>
+ <script src="UI.js"></script>
+ <script src="app.js"></script>
+     
+     
+</body>
+</html>
